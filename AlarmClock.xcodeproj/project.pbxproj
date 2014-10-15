@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A00DDCD19EECA2E006D820C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A00DDCC19EECA2E006D820C /* Cocoa.framework */; };
+		3A00DDD719EECA2E006D820C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A00DDD519EECA2E006D820C /* InfoPlist.strings */; };
+		3A00DDD919EECA2E006D820C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00DDD819EECA2E006D820C /* main.m */; };
+		3A00DDDD19EECA2E006D820C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3A00DDDB19EECA2E006D820C /* Credits.rtf */; };
+		3A00DDE019EECA2E006D820C /* ACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00DDDF19EECA2E006D820C /* ACAppDelegate.m */; };
+		3A00DDE319EECA2E006D820C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A00DDE119EECA2E006D820C /* MainMenu.xib */; };
+		3A00DDE519EECA2E006D820C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A00DDE419EECA2E006D820C /* Images.xcassets */; };
+		3A00DDEC19EECA2E006D820C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A00DDEB19EECA2E006D820C /* XCTest.framework */; };
+		3A00DDED19EECA2E006D820C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A00DDCC19EECA2E006D820C /* Cocoa.framework */; };
+		3A00DDF519EECA2E006D820C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A00DDF319EECA2E006D820C /* InfoPlist.strings */; };
+		3A00DDF719EECA2E006D820C /* AlarmClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00DDF619EECA2E006D820C /* AlarmClockTests.m */; };
+		3A00DE0219EECA6B006D820C /* ACController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A00DE0119EECA6B006D820C /* ACController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A00DDEE19EECA2E006D820C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A00DDC119EECA2E006D820C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A00DDC819EECA2E006D820C;
+			remoteInfo = AlarmClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A00DDC919EECA2E006D820C /* AlarmClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A00DDCC19EECA2E006D820C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3A00DDCF19EECA2E006D820C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3A00DDD019EECA2E006D820C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3A00DDD119EECA2E006D820C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A00DDD419EECA2E006D820C /* AlarmClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlarmClock-Info.plist"; sourceTree = "<group>"; };
+		3A00DDD619EECA2E006D820C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A00DDD819EECA2E006D820C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A00DDDA19EECA2E006D820C /* AlarmClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlarmClock-Prefix.pch"; sourceTree = "<group>"; };
+		3A00DDDC19EECA2E006D820C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3A00DDDE19EECA2E006D820C /* ACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACAppDelegate.h; sourceTree = "<group>"; };
+		3A00DDDF19EECA2E006D820C /* ACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACAppDelegate.m; sourceTree = "<group>"; };
+		3A00DDE219EECA2E006D820C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3A00DDE419EECA2E006D820C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A00DDEA19EECA2E006D820C /* AlarmClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A00DDEB19EECA2E006D820C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3A00DDF219EECA2E006D820C /* AlarmClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlarmClockTests-Info.plist"; sourceTree = "<group>"; };
+		3A00DDF419EECA2E006D820C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A00DDF619EECA2E006D820C /* AlarmClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmClockTests.m; sourceTree = "<group>"; };
+		3A00DE0019EECA6B006D820C /* ACController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACController.h; sourceTree = "<group>"; };
+		3A00DE0119EECA6B006D820C /* ACController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A00DDC619EECA2E006D820C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A00DDCD19EECA2E006D820C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A00DDE719EECA2E006D820C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A00DDED19EECA2E006D820C /* Cocoa.framework in Frameworks */,
+				3A00DDEC19EECA2E006D820C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A00DDC019EECA2E006D820C = {
+			isa = PBXGroup;
+			children = (
+				3A00DDD219EECA2E006D820C /* AlarmClock */,
+				3A00DDF019EECA2E006D820C /* AlarmClockTests */,
+				3A00DDCB19EECA2E006D820C /* Frameworks */,
+				3A00DDCA19EECA2E006D820C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A00DDCA19EECA2E006D820C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A00DDC919EECA2E006D820C /* AlarmClock.app */,
+				3A00DDEA19EECA2E006D820C /* AlarmClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A00DDCB19EECA2E006D820C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A00DDCC19EECA2E006D820C /* Cocoa.framework */,
+				3A00DDEB19EECA2E006D820C /* XCTest.framework */,
+				3A00DDCE19EECA2E006D820C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A00DDCE19EECA2E006D820C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A00DDCF19EECA2E006D820C /* AppKit.framework */,
+				3A00DDD019EECA2E006D820C /* CoreData.framework */,
+				3A00DDD119EECA2E006D820C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3A00DDD219EECA2E006D820C /* AlarmClock */ = {
+			isa = PBXGroup;
+			children = (
+				3A00DDDE19EECA2E006D820C /* ACAppDelegate.h */,
+				3A00DDDF19EECA2E006D820C /* ACAppDelegate.m */,
+				3A00DDE119EECA2E006D820C /* MainMenu.xib */,
+				3A00DE0019EECA6B006D820C /* ACController.h */,
+				3A00DE0119EECA6B006D820C /* ACController.m */,
+				3A00DDE419EECA2E006D820C /* Images.xcassets */,
+				3A00DDD319EECA2E006D820C /* Supporting Files */,
+			);
+			path = AlarmClock;
+			sourceTree = "<group>";
+		};
+		3A00DDD319EECA2E006D820C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A00DDD419EECA2E006D820C /* AlarmClock-Info.plist */,
+				3A00DDD519EECA2E006D820C /* InfoPlist.strings */,
+				3A00DDD819EECA2E006D820C /* main.m */,
+				3A00DDDA19EECA2E006D820C /* AlarmClock-Prefix.pch */,
+				3A00DDDB19EECA2E006D820C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A00DDF019EECA2E006D820C /* AlarmClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A00DDF619EECA2E006D820C /* AlarmClockTests.m */,
+				3A00DDF119EECA2E006D820C /* Supporting Files */,
+			);
+			path = AlarmClockTests;
+			sourceTree = "<group>";
+		};
+		3A00DDF119EECA2E006D820C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A00DDF219EECA2E006D820C /* AlarmClockTests-Info.plist */,
+				3A00DDF319EECA2E006D820C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A00DDC819EECA2E006D820C /* AlarmClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A00DDFA19EECA2E006D820C /* Build configuration list for PBXNativeTarget "AlarmClock" */;
+			buildPhases = (
+				3A00DDC519EECA2E006D820C /* Sources */,
+				3A00DDC619EECA2E006D820C /* Frameworks */,
+				3A00DDC719EECA2E006D820C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlarmClock;
+			productName = AlarmClock;
+			productReference = 3A00DDC919EECA2E006D820C /* AlarmClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A00DDE919EECA2E006D820C /* AlarmClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A00DDFD19EECA2E006D820C /* Build configuration list for PBXNativeTarget "AlarmClockTests" */;
+			buildPhases = (
+				3A00DDE619EECA2E006D820C /* Sources */,
+				3A00DDE719EECA2E006D820C /* Frameworks */,
+				3A00DDE819EECA2E006D820C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A00DDEF19EECA2E006D820C /* PBXTargetDependency */,
+			);
+			name = AlarmClockTests;
+			productName = AlarmClockTests;
+			productReference = 3A00DDEA19EECA2E006D820C /* AlarmClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A00DDC119EECA2E006D820C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					3A00DDE919EECA2E006D820C = {
+						TestTargetID = 3A00DDC819EECA2E006D820C;
+					};
+				};
+			};
+			buildConfigurationList = 3A00DDC419EECA2E006D820C /* Build configuration list for PBXProject "AlarmClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A00DDC019EECA2E006D820C;
+			productRefGroup = 3A00DDCA19EECA2E006D820C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A00DDC819EECA2E006D820C /* AlarmClock */,
+				3A00DDE919EECA2E006D820C /* AlarmClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A00DDC719EECA2E006D820C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A00DDD719EECA2E006D820C /* InfoPlist.strings in Resources */,
+				3A00DDE519EECA2E006D820C /* Images.xcassets in Resources */,
+				3A00DDDD19EECA2E006D820C /* Credits.rtf in Resources */,
+				3A00DDE319EECA2E006D820C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A00DDE819EECA2E006D820C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A00DDF519EECA2E006D820C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A00DDC519EECA2E006D820C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A00DE0219EECA6B006D820C /* ACController.m in Sources */,
+				3A00DDE019EECA2E006D820C /* ACAppDelegate.m in Sources */,
+				3A00DDD919EECA2E006D820C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A00DDE619EECA2E006D820C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A00DDF719EECA2E006D820C /* AlarmClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A00DDEF19EECA2E006D820C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A00DDC819EECA2E006D820C /* AlarmClock */;
+			targetProxy = 3A00DDEE19EECA2E006D820C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A00DDD519EECA2E006D820C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A00DDD619EECA2E006D820C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A00DDDB19EECA2E006D820C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A00DDDC19EECA2E006D820C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3A00DDE119EECA2E006D820C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A00DDE219EECA2E006D820C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3A00DDF319EECA2E006D820C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A00DDF419EECA2E006D820C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A00DDF819EECA2E006D820C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3A00DDF919EECA2E006D820C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3A00DDFB19EECA2E006D820C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlarmClock/AlarmClock-Prefix.pch";
+				INFOPLIST_FILE = "AlarmClock/AlarmClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A00DDFC19EECA2E006D820C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlarmClock/AlarmClock-Prefix.pch";
+				INFOPLIST_FILE = "AlarmClock/AlarmClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3A00DDFE19EECA2E006D820C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlarmClock.app/Contents/MacOS/AlarmClock";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlarmClock/AlarmClock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AlarmClockTests/AlarmClockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3A00DDFF19EECA2E006D820C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlarmClock.app/Contents/MacOS/AlarmClock";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlarmClock/AlarmClock-Prefix.pch";
+				INFOPLIST_FILE = "AlarmClockTests/AlarmClockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A00DDC419EECA2E006D820C /* Build configuration list for PBXProject "AlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A00DDF819EECA2E006D820C /* Debug */,
+				3A00DDF919EECA2E006D820C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A00DDFA19EECA2E006D820C /* Build configuration list for PBXNativeTarget "AlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A00DDFB19EECA2E006D820C /* Debug */,
+				3A00DDFC19EECA2E006D820C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A00DDFD19EECA2E006D820C /* Build configuration list for PBXNativeTarget "AlarmClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A00DDFE19EECA2E006D820C /* Debug */,
+				3A00DDFF19EECA2E006D820C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A00DDC119EECA2E006D820C /* Project object */;
+}
